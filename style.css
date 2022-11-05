@@ -18,7 +18,7 @@ body {
     border-radius: 5px;
 }
 
-#input-btn {
+#input-btn, #save-tab-btn {
     margin-top: 5px;
     background-color: #05445E;
     border: none;
@@ -27,11 +27,27 @@ body {
     color: white;
 }
 
-#input-btn:hover {
+#input-btn:hover,
+#save-tab-btn:hover {
     cursor: pointer;
     color: #05445E;
     background-color: white;
     border: 1px solid #05445E;
+}
+
+#delete-btn {
+    margin-top: 5px;
+    background-color: white;
+    border: 1px solid #05445E;
+    border-radius: 5px;
+    padding: 7px;
+    color: #05445E;
+}
+
+#delete-btn:hover {
+    cursor: pointer;
+    background-color: #05445E;
+    color: white;
 }
 
 ul {
